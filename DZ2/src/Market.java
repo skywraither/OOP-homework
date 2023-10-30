@@ -4,7 +4,7 @@ public class Market implements MarketBehaviour, QueueBehaviour {
     private final List<Actor> queue;
 
     public Market(){
-        this.queue = queue;
+        this.queue = new ArrayList<>();
     }
 
     @Override
